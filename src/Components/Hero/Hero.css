@@ -1,0 +1,62 @@
+h2 {
+    font-family: "Permanent Marker", cursive;
+}
+
+.hero {
+    margin: 0px;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+}
+
+.name-header {
+    margin: 20px;
+}
+
+.name {
+    font-size: 30px;
+    color: #062c44;
+}
+
+.profile-photo {
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid #062c44;
+}
+
+.skill-list {
+    margin: 20px;
+}
+
+.hero ul {
+    list-style: none;
+    padding: 0;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+@media screen and (min-width: 480px) {
+    .profile-photo {
+        display: inline-flex;
+        margin: 0px;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-photo {
+        margin: 0px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .name {
+        display: none;
+    }
+}

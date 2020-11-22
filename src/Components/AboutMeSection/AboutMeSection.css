@@ -1,0 +1,33 @@
+h2 {
+    font-family: "Permanent Marker", cursive;
+}
+
+.section-header {
+    margin: 10px;
+}
+
+.section-header,
+h3 {
+    text-align: center;
+}
+
+#about-me-header {
+    border-bottom: 2px solid #062c44;
+    border-top: 2px solid #062c44;
+}
+
+.bio-overview,
+.port-overview {
+    text-align: left;
+    padding: 0px 30px;
+    font-size: 18px;
+    line-height: 28px;
+    border-bottom: 2px solid #062c44;
+}
+
+@media screen and (min-width: 1024px) {
+    .port-apps .section-header {
+        margin: 5px auto;
+        width: 80%;
+    }
+}
