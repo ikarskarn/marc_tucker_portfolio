@@ -2,28 +2,31 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    margin: 0px;
     background-color: #27aee6;
     border-top: 2px solid #062c44;
     border-bottom: 2px solid #062c44;
     font-size: 24px;
 }
 
-.portfolio-link {
+.portfolio-link,
+.aboutMe-link {
     height: 60px;
     width: 60%;
     margin: 10px auto;
     background-color: #062c44;
     color: white;
     border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px auto;
 }
 
-.aboutMe-link {
-    height: 60px;
-    width: 60%;
-    margin: 10px auto;
-    background-color: white;
-    border-radius: 10px;
+.link-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    margin: auto;
 }
 
 @media screen and (min-width: 480px) {
