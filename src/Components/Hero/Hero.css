@@ -2,6 +2,10 @@ h2 {
     font-family: "Permanent Marker", cursive;
 }
 
+.hero-content {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 .hero {
     margin: 0px;
     padding: 10px;
@@ -15,13 +19,13 @@ h2 {
 
 .name {
     font-size: 30px;
-    color: #062c44;
+    /*color: #062c44;*/
 }
 
 .profile-photo {
     width: 50%;
     border-radius: 50%;
-    border: 5px solid #062c44;
+    border: 5px solid #132721;
 }
 
 .skill-list {

@@ -8,7 +8,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #29abe2;
+    /*background-color: #29abe2;*/
+    /*background-color: #629284;*/
     border-top: 2px solid #062c44;
     border-bottom: 2px solid #062c44;
     width: 100%;
@@ -45,8 +46,9 @@
 .switch-mode-button {
     height: 30px;
     border-radius: 5px;
-    background-color: #062c44;
-    color: white;
+    /*background-color: #062c44;*/
+    /*background-color: #132721;*/
+    /*color: white;*/
     text-align: center;
     padding: auto 10px;
     margin: auto;
@@ -59,9 +61,75 @@
     margin: 0 auto;
 }
 
+.bottom-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid #132721;
+    height: 60px;
+    overflow-y: hidden;
+    padding: 10px;
+    transition: height 0.4s linear;
+    background-color: #e7eaef;
+}
+
+.bottom-header-expanded {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid #132721;
+    height: 240px;
+    overflow-y: hidden;
+    padding: 10px;
+    transition: height 0.4s linear;
+    background-color: #e7eaef;
+}
+
+#see-more {
+    font-size: 32px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+#see-more:hover {
+    color: #629284;
+}
+
+.bottom-header > a,
+.bottom-header-expanded > a {
+    text-decoration: none;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.line {
+    border-bottom: 1px solid #132721;
+}
+
+.nav:link,
+.nav:visited {
+    color: #132721;
+}
+
+.nav:hover {
+    background-color: darkgrey;
+    width: 100%;
+}
+
 .hidden {
     display: none;
 }
+
 /*NAV BAR END*/
 
 @media screen and (min-width: 1024px) {

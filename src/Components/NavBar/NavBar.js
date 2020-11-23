@@ -3,15 +3,34 @@ import "./NavBar.css";
 import Context from "../../Context";
 import Logo from "../../images/logo.jpg";
 import { Link } from "react-router-dom";
+import { faBars, faHamburger } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class NavBar extends React.Component {
     static contextType = Context;
+    state = {
+        expanded: false,
+        headerText: "bottom-header",
+    };
+
+    expand = () => {
+        let b = this.state.expanded;
+        b = !b;
+        let s = b ? "bottom-header-expanded" : "bottom-header";
+        this.setState({
+            expanded: b,
+            headerText: s,
+        });
+    };
+
     render() {
         return (
             <div className="NavBar-content">
-                <header className="top-header">
+                <header className="top-header bg-lightGreen">
                     <div className="header-left">
-                        <img className="logo" src={Logo} alt="Pixel Grind Games Logo" />
+                        <Link to="/">
+                            <img className="logo" src={Logo} alt="Pixel Grind Games Logo" />
+                        </Link>
                         <Link to="/" className="hidden">
                             Home
                         </Link>
@@ -26,13 +45,26 @@ class NavBar extends React.Component {
                         <h1>Marc Tucker</h1>
                     </div>
                     <div className="header-right">
-                        <button type="button" className="switch-mode-button">
+                        <button type="button" className="switch-mode-button bg-darkGreen">
                             Professional
                         </button>
                         <p className="js-current-mode">*switch</p>
                     </div>
                 </header>
-                <div className="bottom-header"></div>
+                <div className={this.state.headerText}>
+                    <button id="see-more" onClick={() => this.expand()}>
+                        <FontAwesomeIcon icon={faBars} />
+                    </button>
+                    <Link className="line nav" to="/">
+                        Home
+                    </Link>
+                    <Link className="line nav" to="/about-me">
+                        About Me
+                    </Link>
+                    <Link className="nav" to="/portfolio">
+                        Portfolio
+                    </Link>
+                </div>
             </div>
         );
     }

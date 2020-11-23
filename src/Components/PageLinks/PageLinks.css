@@ -2,9 +2,10 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #27aee6;
-    border-top: 2px solid #062c44;
-    border-bottom: 2px solid #062c44;
+    /*background-color: #29abe2;*/
+    /*background-color: #629284;*/
+    border-top: 2px solid #132721;
+    /*border-bottom: 2px solid #132721;*/
     font-size: 24px;
 }
 
@@ -13,12 +14,13 @@
     height: 60px;
     width: 60%;
     margin: 10px auto;
-    background-color: #062c44;
-    color: white;
+    /*background-color: #062c44;*/
+    /*background-color: #132721;*/
     border-radius: 10px;
     text-align: center;
     text-decoration: none;
     padding: 10px auto;
+    transition: all 0.2s ease-in-out;
 }
 
 .link-text {
@@ -27,6 +29,14 @@
     justify-content: space-around;
     height: 100%;
     margin: auto;
+}
+
+.portfolio-link:hover,
+.aboutMe-link:hover {
+    border: 2px solid white;
+    transform: scale(1.2);
+    background-color: #132721;
+    color: white;
 }
 
 @media screen and (min-width: 480px) {

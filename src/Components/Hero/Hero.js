@@ -7,7 +7,7 @@ class Hero extends React.Component {
     static contextType = Context;
     render() {
         return (
-            <div className="hero-content">
+            <div className="hero-content bg-white">
                 <section class="hero">
                     <div class="name">
                         <h2 class="name-header">Marc Tucker</h2>
