@@ -42,18 +42,14 @@
 @media screen and (min-width: 480px) {
     .page-links {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         flex-direction: row;
     }
 
-    .portfolio-link {
-        width: 50%;
-        margin: 10px 20px 10px 15%;
-    }
-
+    .portfolio-link,
     .aboutMe-link {
-        width: 50%;
-        margin: 10px 15% 10px 20px;
+        width: 40%;
+        margin: 30px auto;
     }
 }
 

@@ -2,7 +2,6 @@ footer {
     text-align: center;
     padding: 10px;
     border-top: 2px solid #132721;
-    height: 200px;
     font-size: 16px;
     display: flex;
     flex-direction: column;
@@ -31,6 +30,10 @@ address {
 }
 
 @media screen and (min-width: 480px) {
+    .contact-label {
+        margin: 5px;
+    }
+
     footer address {
         display: flex;
         flex-direction: row;
