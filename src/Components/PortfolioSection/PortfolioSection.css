@@ -17,36 +17,50 @@ h3 {
     font-size: 18px;
     line-height: 28px;
     border-bottom: 2px solid #062c44;
+    color: white;
 }
 
-.port-app-3d {
-    /*background-color: #B5B5B5;*/
-    display: flex;
-    flex-direction: column;
-    background-color: #062c44;
-    color: lightgrey;
-    border-top: #27aee6 solid 2px;
-    border-bottom: white solid 2px;
-}
-
-.port-app-covid {
-    /*background-color: #B5B5B5;*/
-    display: flex;
-    flex-direction: column;
-    background-color: #27aee6;
-    color: #062c44;
-    border-top: #062c44 solid 2px;
-    border-bottom: white solid 2px;
-}
-
-#applications-header-3d {
-    border-bottom: 2px solid #27aee6;
-    border-top: 2px solid #27aee6;
-}
-
-#applications-header-covid {
+.port-overview-alt {
+    text-align: left;
+    padding: 0px 30px;
+    font-size: 18px;
+    line-height: 28px;
     border-bottom: 2px solid #062c44;
-    border-top: 2px solid #062c44;
+    color: black;
+}
+
+.overview-header {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 2px;
+}
+
+.port-app {
+    display: flex;
+    flex-direction: column;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.port-app-alt {
+    display: flex;
+    flex-direction: column;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#applications-header {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 5px;
+}
+
+#applications-header-alt {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 5px;
 }
 
 .port-images {
@@ -59,13 +73,18 @@ h3 {
     align-self: center;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 2px 2px #27aee6;
+    box-shadow: 2px 2px darkgrey;
 }
 
-.port-overview ul {
+.port-overview ul,
+.port-overview-alt ul {
     text-align: center;
     list-style: none;
     padding: 0;
+}
+
+.port-text-alt {
+    color: black;
 }
 
 .port-buttons {
@@ -75,36 +94,31 @@ h3 {
     font-size: 24px;
 }
 
-.port-buttons button {
+.try-it:hover,
+.check-it-out:hover {
+    transform: scale(1.2);
+    background-color: rgb(200, 200, 200);
+    color: black;
+}
+
+.try-it {
+    width: 50%;
     height: 60px;
     margin: 10px auto;
     font-weight: bold;
     border-radius: 10px;
     align-self: center;
+    transition: all 0.2s ease-in-out;
 }
 
-.try-it-3d {
-    width: 50%;
-    background-color: #27aee6;
-    color: #062c44;
-}
-
-.check-it-out-3d {
+.check-it-out {
     width: 60%;
-    background-color: white;
-    color: #062c44;
-}
-
-.try-it-covid {
-    width: 50%;
-    background-color: #062c44;
-    color: white;
-}
-
-.check-it-out-covid {
-    width: 60%;
-    background-color: white;
-    color: #062c44;
+    height: 60px;
+    margin: 10px auto;
+    font-weight: bold;
+    border-radius: 10px;
+    align-self: center;
+    transition: all 0.2s ease-in-out;
 }
 
 @media screen and (min-width: 480px) {

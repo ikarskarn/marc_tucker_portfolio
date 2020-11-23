@@ -55,13 +55,13 @@ class NavBar extends React.Component {
                     <button id="see-more" onClick={() => this.expand()}>
                         <FontAwesomeIcon icon={faBars} />
                     </button>
-                    <Link className="line nav" to="/">
+                    <Link className="line nav" onClick={() => this.expand()} to="/">
                         Home
                     </Link>
-                    <Link className="line nav" to="/about-me">
+                    <Link className="line nav" onClick={() => this.expand()} to="/about-me">
                         About Me
                     </Link>
-                    <Link className="nav" to="/portfolio">
+                    <Link className="nav" onClick={() => this.expand()} to="/portfolio">
                         Portfolio
                     </Link>
                 </div>

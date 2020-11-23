@@ -10,7 +10,9 @@ class AboutMe extends React.Component {
                 <a id="aboutMe-anchor"></a>
                 <section class="bio">
                     <header class="section-header">
-                        <h2 id="about-me-header">About Me</h2>
+                        <h2 id="about-me-header" className="bg-lightGreen">
+                            About Me
+                        </h2>
                     </header>
                     <div class="bio-overview">
                         <p>
