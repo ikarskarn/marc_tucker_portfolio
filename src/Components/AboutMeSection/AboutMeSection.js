@@ -2,6 +2,8 @@ import React from "react";
 import "./AboutMeSection.css";
 import Context from "../../Context";
 import STORE from "../../STORE";
+import CasBio from "./CasBio";
+import ProBio from "./ProBio";
 
 class AboutMe extends React.Component {
     static contextType = Context;
@@ -23,7 +25,7 @@ class AboutMe extends React.Component {
                         </h2>
                     </header>
                     <div class={`bio-overview ${this.context.proMode ? "proText" : "casText"}`}>
-                        {this.context.proMode ? STORE.bio.pro : STORE.bio.cas}
+                        {this.context.proMode ? <ProBio /> : <CasBio />}
                     </div>
                 </section>
             </div>

@@ -4,6 +4,7 @@ import "./App.css";
 import Context from "./Context";
 //import videos
 import ProVideo from "./Videos/pro_bg.m4v";
+import CasVideo from "./Videos/cas_bg.mkv";
 //import routes
 import Home from "./Routes/Home";
 import AboutMe from "./Routes/AboutMe";
@@ -25,8 +26,8 @@ class App extends React.Component {
             });
         },
     };
-
     render() {
+        const videoSources = [ProVideo, CasVideo];
         return (
             <main className="App">
                 <Context.Provider value={this.state}>
@@ -34,7 +35,7 @@ class App extends React.Component {
                     <Hero />
                     <div className="content" aria-live="polite">
                         <video className="background-video" autoPlay loop muted>
-                            <source src={ProVideo} type="video/mp4" />
+                            <source src={CasVideo} type="video/mp4" />
                         </video>
                         <div className="cover" />
                         <div className="content" aria-live="polite">

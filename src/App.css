@@ -11,11 +11,11 @@
 }
 
 .casHeader {
-    font-family: "Nerko One", cursive;
+    font-family: "Permanent Marker", cursive;
 }
 
 .casText {
-    font-family: "Permanent Marker", cursive;
+    font-family: "Nerko One", cursive;
 }
 
 body {
@@ -44,6 +44,19 @@ button:hover {
 }
 
 .background-video {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    object-fit: cover;
+    transform: "translate(-50%, -50%)";
+    z-index: -2;
+}
+
+.background-video-alt {
     position: fixed;
     width: 100%;
     left: 0;

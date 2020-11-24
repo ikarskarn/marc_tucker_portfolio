@@ -3,7 +3,8 @@ import "./Hero.css";
 import Context from "../../Context";
 import proPhoto from "../../images/profProfilePic.png";
 import casPhoto from "../../images/marc_casual.png";
-import STORE from "../../STORE";
+import ProSkills from "./ProSkills";
+import CasSkills from "./CasSkills";
 
 class Hero extends React.Component {
     static contextType = Context;
@@ -27,7 +28,7 @@ class Hero extends React.Component {
                         alt="Professional Profile Photo of Marc Tucker"
                     />
                     <div class={`skill-list ${this.context.proMode ? "proText" : "casText"}`}>
-                        {this.context.proMode ? STORE.skills.pro : STORE.skills.cas}
+                        {this.context.proMode ? <ProSkills /> : <CasSkills />}
                     </div>
                 </section>
             </div>

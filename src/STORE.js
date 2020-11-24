@@ -92,6 +92,130 @@ const STORE = {
             </div>
         ),
     },
+    smizeApp: {
+        pro: (
+            <div className="port-overview">
+                <h3
+                    className={`overview-header ${
+                        this.context.proMode ? "bg-lightGreen proHeader" : "bg-lightBlue casHeader"
+                    }`}
+                >
+                    Overview
+                </h3>
+                <p className={`${this.context.proMode ? "proText" : "casText"}`}>
+                    The phrase, Smize, was coined by Tara Banks. Smiling with your eyes is the best
+                    way to get a natural smile for the camera. The Smize App is designed for
+                    photographers to encourage their clients to do just that. Smize displays
+                    humorous (sometimes) sayings, jokes, and statements for the photographer to read
+                    while taking photos of clients.
+                </p>
+                <h3 className={`${this.context.proMode ? "proHeader" : "casHeader"}`}>
+                    Project Tech
+                </h3>
+                <ul className={`${this.context.proMode ? "proText" : "casText"}`}>
+                    <li>React</li>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>javaScript</li>
+                    <li>Express</li>
+                    <li>Node.js</li>
+                    <li>PostgreSQL</li>
+                </ul>
+            </div>
+        ),
+        cas: (
+            <div className="port-overview">
+                <h3
+                    className={`overview-header ${
+                        this.context.proMode ? "bg-lightGreen proHeader" : "bg-lightBlue casHeader"
+                    }`}
+                >
+                    Overview
+                </h3>
+                <p className={`${this.context.proMode ? "proText" : "casText"}`}>
+                    The phrase, Smize, was coined by Tara Banks. Smiling with your eyes is the best
+                    way to get a natural smile for the camera. The Smize App is designed for
+                    photographers to encourage their clients to do just that. Smize displays
+                    humorous (sometimes) sayings, jokes, and statements for the photographer to read
+                    while taking photos of clients.
+                </p>
+                <h3 className={`${this.context.proMode ? "proHeader" : "casHeader"}`}>
+                    Project Tech
+                </h3>
+                <ul className={`${this.context.proMode ? "proText" : "casText"}`}>
+                    <li>React</li>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>javaScript</li>
+                    <li>Express</li>
+                    <li>Node.js</li>
+                    <li>PostgreSQL</li>
+                </ul>
+            </div>
+        ),
+    },
+    smizeApp: {
+        pro: (
+            <div className="port-overview">
+                <h3
+                    className={`overview-header ${
+                        this.context.proMode ? "bg-lightGreen proHeader" : "bg-lightBlue casHeader"
+                    }`}
+                >
+                    Overview
+                </h3>
+                <p className={`${this.context.proMode ? "proText" : "casText"}`}>
+                    The phrase, Smize, was coined by Tara Banks. Smiling with your eyes is the best
+                    way to get a natural smile for the camera. The Smize App is designed for
+                    photographers to encourage their clients to do just that. Smize displays
+                    humorous (sometimes) sayings, jokes, and statements for the photographer to read
+                    while taking photos of clients.
+                </p>
+                <h3 className={`${this.context.proMode ? "proHeader" : "casHeader"}`}>
+                    Project Tech
+                </h3>
+                <ul className={`${this.context.proMode ? "proText" : "casText"}`}>
+                    <li>React</li>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>javaScript</li>
+                    <li>Express</li>
+                    <li>Node.js</li>
+                    <li>PostgreSQL</li>
+                </ul>
+            </div>
+        ),
+        cas: (
+            <div className="port-overview">
+                <h3
+                    className={`overview-header ${
+                        this.context.proMode ? "bg-lightGreen proHeader" : "bg-lightBlue casHeader"
+                    }`}
+                >
+                    Overview
+                </h3>
+                <p className={`${this.context.proMode ? "proText" : "casText"}`}>
+                    The phrase, Smize, was coined by Tara Banks. Smiling with your eyes is the best
+                    way to get a natural smile for the camera. The Smize App is designed for
+                    photographers to encourage their clients to do just that. Smize displays
+                    humorous (sometimes) sayings, jokes, and statements for the photographer to read
+                    while taking photos of clients.
+                </p>
+                <h3 className={`${this.context.proMode ? "proHeader" : "casHeader"}`}>
+                    Project Tech
+                </h3>
+                <ul className={`${this.context.proMode ? "proText" : "casText"}`}>
+                    <li>React</li>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>javaScript</li>
+                    <li>Express</li>
+                    <li>Node.js</li>
+                    <li>PostgreSQL</li>
+                </ul>
+            </div>
+        ),
+    },
 };
 
 export default STORE;
