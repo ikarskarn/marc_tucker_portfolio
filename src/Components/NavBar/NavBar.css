@@ -123,6 +123,7 @@
 
 /*NAV BAR MOBILE END*/
 
+/*TABLET*/
 @media screen and (min-width: 480px) {
     .header-center {
         width: 50%;
@@ -146,6 +147,7 @@
     }
 }
 
+/*DESKTOP*/
 @media screen and (min-width: 1024px) {
     .header-center {
         visibility: visible;

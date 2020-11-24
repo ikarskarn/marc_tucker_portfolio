@@ -29,16 +29,16 @@ class CovidApp extends React.Component {
                 expect in the coming weeks for a user's state. As a board member of a local
                 Community Theatre, a community college instructor, and as a father, I wanted to
                 build this app to help people out and give them some peace of mind. I pulled
-                statistical data from the COVID-19 Tracking Project API and tried to provide as much
+                statistical data from the Covid-19 Tracking Project API and tried to provide as much
                 info as possible to encourage people to make smart choices in the coming weeks. I
                 built it with semantic and a11y accessible HTML, styled it with CSS, and all the
                 interaction is coded in JavaScript and jQuery Libraries. The API data was pulled
-                from the COVID-19 Tracking Project.
+                from the Covid-19 Tracking Project.
             </p>
         );
         return (
             <section className="port-app-alt">
-                <header class="section-header">
+                <header className="section-header">
                     <h2
                         id="applications-header-alt"
                         className={`${
@@ -47,7 +47,7 @@ class CovidApp extends React.Component {
                                 : "bg-darkBlue casHeader"
                         }`}
                     >
-                        COVID-19 API Application
+                        Covid-19 API Application
                     </h2>
                 </header>
                 <div className="port-container">
@@ -85,7 +85,7 @@ class CovidApp extends React.Component {
                 </div>
                 <div class="port-buttons">
                     <a
-                        href="http://google.com"
+                        href="https://ikarskarn.github.io/covid19_app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`try-it ${
@@ -97,7 +97,7 @@ class CovidApp extends React.Component {
                         </p>
                     </a>
                     <a
-                        href="http://google.com"
+                        href="https://github.com/ikarskarn/covid19_app.git"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`check-it-out ${

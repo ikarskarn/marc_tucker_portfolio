@@ -27,7 +27,6 @@ class App extends React.Component {
         },
     };
     render() {
-        const videoSources = [ProVideo, CasVideo];
         return (
             <main className="App">
                 <Context.Provider value={this.state}>

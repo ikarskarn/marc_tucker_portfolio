@@ -1,7 +1,6 @@
 import React from "react";
 import "./AboutMeSection.css";
 import Context from "../../Context";
-import STORE from "../../STORE";
 import CasBio from "./CasBio";
 import ProBio from "./ProBio";
 
@@ -11,8 +10,8 @@ class AboutMe extends React.Component {
         return (
             <div className="AboutMe-content">
                 <a id="aboutMe-anchor"></a>
-                <section class="bio">
-                    <header class="section-header">
+                <section className="bio">
+                    <header className="section-header">
                         <h2
                             id="about-me-header"
                             className={`${
@@ -24,7 +23,7 @@ class AboutMe extends React.Component {
                             About Me
                         </h2>
                     </header>
-                    <div class={`bio-overview ${this.context.proMode ? "proText" : "casText"}`}>
+                    <div className={`bio-overview ${this.context.proMode ? "proText" : "casText"}`}>
                         {this.context.proMode ? <ProBio /> : <CasBio />}
                     </div>
                 </section>

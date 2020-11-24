@@ -28,7 +28,7 @@ class CatalogApp extends React.Component {
         );
         return (
             <section className="port-app-alt">
-                <header class="section-header">
+                <header className="section-header">
                     <h2
                         id="applications-header-alt"
                         className={`${
@@ -72,7 +72,7 @@ class CatalogApp extends React.Component {
                 </div>
                 <div class="port-buttons">
                     <a
-                        href="http://google.com"
+                        href="https://catalog-app.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`try-it ${
@@ -84,7 +84,7 @@ class CatalogApp extends React.Component {
                         </p>
                     </a>
                     <a
-                        href="http://google.com"
+                        href="https://github.com/ikarskarn/catalog-app.git"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`check-it-out ${

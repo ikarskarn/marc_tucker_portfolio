@@ -18,7 +18,7 @@ export default function ProBio(props) {
                 Development Industry.
             </p>
             <p>
-                I am a soon-to-be Graduate of the Engineering Flex Full Stack Bootcamp at Thinkful
+                I am a soon-to-be Graduate of the Engineering Flex Full Stack Program at Thinkful
                 and have learned valuable tools and resources to help me make the transition to Web
                 Development. My experience in Game Design and Development provides me with a unique
                 perspective on Interactivity and Design principles that encourage engagement and

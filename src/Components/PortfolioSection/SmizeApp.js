@@ -79,7 +79,7 @@ class SmizeApp extends React.Component {
                     }`}
                 >
                     <a
-                        href="http://google.com"
+                        href="https://smize-app.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`try-it ${
@@ -91,7 +91,7 @@ class SmizeApp extends React.Component {
                         </p>
                     </a>
                     <a
-                        href="http://google.com"
+                        href="https://github.com/ikarskarn/smize-app.git"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`check-it-out ${

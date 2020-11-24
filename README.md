@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Marc Tucker's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Links and detailed information is provided in the portfolio page. If you would like to check out some of the apps I've worked on please feel free to check them out directly below.
 
-## Available Scripts
+## Live Portfolio
 
-In the project directory, you can run:
+[Marc Tucker Portfolio]()
 
-### `npm start`
+## React Apps
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Smize
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[Smize: Live](https://smize-app.vercel.app/)
 
-### `npm test`
+[Smize App Code](https://github.com/ikarskarn/smize-app.git)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Smize API Code](https://github.com/ikarskarn/smize-api.git)
 
-### `npm run build`
+### Catalog
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Teaching and Learning Catalog: Live](https://catalog-app.vercel.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Catalog App Code](https://github.com/ikarskarn/catalog-app)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Catalog API Code](https://github.com/ikarskarn/catalog-api)
 
-### `npm run eject`
+## Vanilla Apps
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Quiz App
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Quiz App: Live](https://ikarskarn.github.io/quizApp/)
+[Quiz App Code](https://github.com/ikarskarn/quizApp)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Covid-19 Tracker
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[Covid-19 Tracker: Live](https://ikarskarn.github.io/covid19_app/)
+[Covid-19 Tracker Code](https://github.com/ikarskarn/covid19_app)
 
-## Learn More
+## Contact Info
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[GitHub](https://github.com/ikarskarn)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[LinkedIn](https://www.linkedin.com/in/marcttucker/)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Email: <marcttucker@gmail.com>

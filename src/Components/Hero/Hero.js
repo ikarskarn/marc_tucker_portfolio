@@ -11,8 +11,8 @@ class Hero extends React.Component {
     render() {
         return (
             <div className="hero-content bg-white">
-                <section class="hero">
-                    <div class="name">
+                <section className="hero">
+                    <div className="name">
                         <h2
                             className={`name-header ${
                                 this.context.proMode ? "proHeader" : "casHeader"
@@ -23,11 +23,11 @@ class Hero extends React.Component {
                     </div>
                     <img
                         id="js-profile-photo"
-                        class="profile-photo"
+                        className="profile-photo"
                         src={this.context.proMode ? proPhoto : casPhoto}
-                        alt="Professional Profile Photo of Marc Tucker"
+                        alt="Marc Tucker"
                     />
-                    <div class={`skill-list ${this.context.proMode ? "proText" : "casText"}`}>
+                    <div className={`skill-list ${this.context.proMode ? "proText" : "casText"}`}>
                         {this.context.proMode ? <ProSkills /> : <CasSkills />}
                     </div>
                 </section>

@@ -3,7 +3,7 @@ import "./NavBar.css";
 import Context from "../../Context";
 import Logo from "../../images/logo.jpg";
 import { Link } from "react-router-dom";
-import { faBars, faHamburger } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class NavBar extends React.Component {
@@ -34,15 +34,6 @@ class NavBar extends React.Component {
                     <div className="header-left">
                         <Link to="/">
                             <img className="logo" src={Logo} alt="Pixel Grind Games Logo" />
-                        </Link>
-                        <Link to="/" className="hidden">
-                            Home
-                        </Link>
-                        <Link to="/about-me" className="hidden">
-                            About Me
-                        </Link>
-                        <Link to="/portfolio" className="hidden">
-                            Portfolio
                         </Link>
                     </div>
                     <div className="header-center">
