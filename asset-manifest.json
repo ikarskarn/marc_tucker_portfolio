@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/marc_tucker_portfolio/static/css/main.99005ae2.chunk.css",
+    "main.js": "/marc_tucker_portfolio/static/js/main.e348197b.chunk.js",
+    "main.js.map": "/marc_tucker_portfolio/static/js/main.e348197b.chunk.js.map",
+    "runtime-main.js": "/marc_tucker_portfolio/static/js/runtime-main.1a2353f7.js",
+    "runtime-main.js.map": "/marc_tucker_portfolio/static/js/runtime-main.1a2353f7.js.map",
+    "static/js/2.913e1803.chunk.js": "/marc_tucker_portfolio/static/js/2.913e1803.chunk.js",
+    "static/js/2.913e1803.chunk.js.map": "/marc_tucker_portfolio/static/js/2.913e1803.chunk.js.map",
+    "index.html": "/marc_tucker_portfolio/index.html",
+    "static/css/main.99005ae2.chunk.css.map": "/marc_tucker_portfolio/static/css/main.99005ae2.chunk.css.map",
+    "static/js/2.913e1803.chunk.js.LICENSE.txt": "/marc_tucker_portfolio/static/js/2.913e1803.chunk.js.LICENSE.txt",
+    "static/media/CovidApp_PageTop.1d44ad6e.PNG": "/marc_tucker_portfolio/static/media/CovidApp_PageTop.1d44ad6e.PNG",
+    "static/media/cas_bg.805b8b05.mkv": "/marc_tucker_portfolio/static/media/cas_bg.805b8b05.mkv",
+    "static/media/catalog_mobile_01.c2c45a37.jpg": "/marc_tucker_portfolio/static/media/catalog_mobile_01.c2c45a37.jpg",
+    "static/media/catalog_mobile_02.71613bdf.jpg": "/marc_tucker_portfolio/static/media/catalog_mobile_02.71613bdf.jpg",
+    "static/media/covid_graph_state.f8fb1067.gif": "/marc_tucker_portfolio/static/media/covid_graph_state.f8fb1067.gif",
+    "static/media/logo.ba71b778.jpg": "/marc_tucker_portfolio/static/media/logo.ba71b778.jpg",
+    "static/media/marc_casual.afef5e57.png": "/marc_tucker_portfolio/static/media/marc_casual.afef5e57.png",
+    "static/media/pro_bg.7023c39c.m4v": "/marc_tucker_portfolio/static/media/pro_bg.7023c39c.m4v",
+    "static/media/profProfilePic.2d31fa19.png": "/marc_tucker_portfolio/static/media/profProfilePic.2d31fa19.png",
+    "static/media/quizApp_incorrect.2a310251.png": "/marc_tucker_portfolio/static/media/quizApp_incorrect.2a310251.png",
+    "static/media/quizApp_results.d522366b.png": "/marc_tucker_portfolio/static/media/quizApp_results.d522366b.png",
+    "static/media/smize_mobile_01.2eecab7e.jpg": "/marc_tucker_portfolio/static/media/smize_mobile_01.2eecab7e.jpg",
+    "static/media/smize_mobile_02.03ad1d92.jpg": "/marc_tucker_portfolio/static/media/smize_mobile_02.03ad1d92.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a2353f7.js",
+    "static/js/2.913e1803.chunk.js",
+    "static/css/main.99005ae2.chunk.css",
+    "static/js/main.e348197b.chunk.js"
+  ]
+}
