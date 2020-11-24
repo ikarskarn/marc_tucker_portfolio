@@ -10,19 +10,6 @@ import Smize_MainPage from "../../images/smize_mobile_01.jpg";
 import Smize_App from "../../images/smize_mobile_02.jpg";
 import Catalog_Admin from "../../images/catalog_mobile_01.jpg";
 import Catalog_App from "../../images/catalog_mobile_02.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faCss3,
-    faGit,
-    faGithub,
-    faHtml5,
-    faJsSquare,
-    faMarkdown,
-    faNodeJs,
-    faNpm,
-    faReact,
-    faUnity,
-} from "@fortawesome/free-brands-svg-icons";
 
 class PortfolioSection extends React.Component {
     static contextType = Context;
@@ -31,7 +18,14 @@ class PortfolioSection extends React.Component {
             <div className="PortfolioSection-content">
                 <section className="port-app">
                     <header className="section-header">
-                        <h2 id="applications-header" className=" bg-lightGreen">
+                        <h2
+                            id="applications-header"
+                            className={`${
+                                this.context.proMode
+                                    ? "bg-lightGreen proHeader"
+                                    : "bg-lightBlue casHeader"
+                            }`}
+                        >
                             Smize
                         </h2>
                     </header>
@@ -41,8 +35,16 @@ class PortfolioSection extends React.Component {
                             <img src={Smize_App} alt="Smize Application primary functionality" />
                         </div>
                         <div className="port-overview">
-                            <h3 className="overview-header bg-lightGreen">Overview</h3>
-                            <p>
+                            <h3
+                                className={`overview-header ${
+                                    this.context.proMode
+                                        ? "bg-lightGreen proHeader"
+                                        : "bg-lightBlue casHeader"
+                                }`}
+                            >
+                                Overview
+                            </h3>
+                            <p className={`${this.context.proMode ? "proText" : "casText"}`}>
                                 The phrase, Smize, was coined by Tara Banks. Smiling with your eyes
                                 is the best way to get a natural smile for the camera. The Smize App
                                 is designed for photographers to encourage their clients to do just
@@ -50,8 +52,10 @@ class PortfolioSection extends React.Component {
                                 statements for the photographer to read while taking photos of
                                 clients.
                             </p>
-                            <h3>Project Tech</h3>
-                            <ul>
+                            <h3 className={`${this.context.proMode ? "proHeader" : "casHeader"}`}>
+                                Project Tech
+                            </h3>
+                            <ul className={`${this.context.proMode ? "proText" : "casText"}`}>
                                 <li>React</li>
                                 <li>CSS</li>
                                 <li>HTML</li>
@@ -62,28 +66,47 @@ class PortfolioSection extends React.Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="port-buttons bg-lightGreen">
+                    <div
+                        className={`port-buttons ${
+                            this.context.proMode ? "bg-lightGreen" : "bg-lightBlue"
+                        }`}
+                    >
                         <a
                             href="http://google.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="try-it bg-darkGreen"
+                            className={`try-it ${
+                                this.context.proMode ? "bg-darkGreen" : "bg-darkBlue"
+                            }`}
                         >
-                            <p className="a-text">Try It Out</p>
+                            <p className={`a-text ${this.context.proMode ? "proText" : "casText"}`}>
+                                Try It Out
+                            </p>
                         </a>
                         <a
                             href="http://google.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="check-it-out bg-darkGreen"
+                            className={`check-it-out ${
+                                this.context.proMode ? "bg-darkGreen" : "bg-darkBlue"
+                            }`}
                         >
-                            <p className="a-text">Check Out the Code</p>
+                            <p className={`a-text ${this.context.proMode ? "proText" : "casText"}`}>
+                                Check Out the Code
+                            </p>
                         </a>
                     </div>
                 </section>
                 <section className="port-app-alt">
                     <header class="section-header">
-                        <h2 id="applications-header-alt" className="bg-darkGreen">
+                        <h2
+                            id="applications-header-alt"
+                            className={`${
+                                this.context.proMode
+                                    ? "bg-darkGreen proHeader"
+                                    : "bg-darkBlue casHeader"
+                            }`}
+                        >
                             COVID-19 API Application
                         </h2>
                     </header>
@@ -99,8 +122,16 @@ class PortfolioSection extends React.Component {
                             />
                         </div>
                         <div className="port-overview-alt">
-                            <h3 className="overview-header bg-darkGreen">Overview</h3>
-                            <p>
+                            <h3
+                                className={`overview-header ${
+                                    this.context.proMode
+                                        ? "bg-darkGreen proHeader"
+                                        : "bg-darkBlue casHeader"
+                                }`}
+                            >
+                                Overview
+                            </h3>
+                            <p className={`${this.context.proMode ? "proText" : "casText"}`}>
                                 Covid-19 has been exceedingly disruptive to many people's lives over
                                 the past year. This application is intended to provide insight into
                                 the upcoming increase or decrease in positive Covid cases. Utilizing
@@ -112,8 +143,10 @@ class PortfolioSection extends React.Component {
                                 semantic and a11y accessible HTML, styled with CSS, and interaction
                                 coded in JavaScript and jQuery Libraries.
                             </p>
-                            <h3>Project Tech</h3>
-                            <ul>
+                            <h3 className={`${this.context.proMode ? "proHeader" : "casHeader"}`}>
+                                Project Tech
+                            </h3>
+                            <ul className={`${this.context.proMode ? "proText" : "casText"}`}>
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>JavaScript</li>
@@ -129,23 +162,38 @@ class PortfolioSection extends React.Component {
                             href="http://google.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="try-it bg-lightGreen"
+                            className={`try-it ${
+                                this.context.proMode ? "bg-lightGreen" : "bg-lightBlue"
+                            }`}
                         >
-                            <p className="a-text">Try It Out</p>
+                            <p className={`a-text ${this.context.proMode ? "proText" : "casText"}`}>
+                                Try It Out
+                            </p>
                         </a>
                         <a
                             href="http://google.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="check-it-out bg-lightGreen"
+                            className={`check-it-out ${
+                                this.context.proMode ? "bg-lightGreen" : "bg-lightBlue"
+                            }`}
                         >
-                            <p className="a-text">Check Out the Code</p>
+                            <p className={`a-text ${this.context.proMode ? "proText" : "casText"}`}>
+                                Check Out the Code
+                            </p>
                         </a>
                     </div>
                 </section>
                 <section className="port-app">
                     <header className="section-header">
-                        <h2 id="applications-header" className=" bg-lightGreen">
+                        <h2
+                            id="applications-header"
+                            className={`${
+                                this.context.proMode
+                                    ? "bg-lightGreen proHeader"
+                                    : "bg-lightBlue casHeader"
+                            }`}
+                        >
                             3D Quiz App
                         </h2>
                     </header>
@@ -161,15 +209,23 @@ class PortfolioSection extends React.Component {
                             />
                         </div>
                         <div className="port-overview">
-                            <h3 className="overview-header bg-lightGreen">Overview</h3>
-                            <p>
+                            <h3
+                                className={`overview-header ${
+                                    this.context.proMode ? "bg-lightGreen" : "bg-lightBlue"
+                                }`}
+                            >
+                                Overview
+                            </h3>
+                            <p className={`${this.context.proMode ? "proText" : "casText"}`}>
                                 The 3D Components Quiz Application is an example of a minimalistic
                                 interactive quiz application built from the ground up. It is built
                                 with semantic and a11y accessible HTML, styled with CSS, and
                                 interaction is coded in JavaScript and jQuery Libraries.
                             </p>
-                            <h3>Project Tech</h3>
-                            <ul>
+                            <h3 className={`${this.context.proMode ? "proHeader" : "casHeader"}`}>
+                                Project Tech
+                            </h3>
+                            <ul className={`${this.context.proMode ? "proText" : "casText"}`}>
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>JavaScript</li>
@@ -180,28 +236,47 @@ class PortfolioSection extends React.Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="port-buttons bg-lightGreen">
+                    <div
+                        className={`port-buttons ${
+                            this.context.proMode ? "bg-lightGreen" : "bg-lightBlue"
+                        }`}
+                    >
                         <a
                             href="http://google.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="try-it bg-darkGreen"
+                            className={`try-it ${
+                                this.context.proMode ? "bg-darkGreen" : "bg-darkBlue"
+                            }`}
                         >
-                            <p className="a-text">Try It Out</p>
+                            <p className={`a-text ${this.context.proMode ? "proText" : "casText"}`}>
+                                Try It Out
+                            </p>
                         </a>
                         <a
                             href="http://google.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="check-it-out bg-darkGreen"
+                            className={`check-it-out ${
+                                this.context.proMode ? "bg-darkGreen" : "bg-darkBlue"
+                            }`}
                         >
-                            <p className="a-text">Check Out the Code</p>
+                            <p className={`a-text ${this.context.proMode ? "proText" : "casText"}`}>
+                                Check Out the Code
+                            </p>
                         </a>
                     </div>
                 </section>
                 <section className="port-app-alt">
                     <header class="section-header">
-                        <h2 id="applications-header-alt" className="bg-darkGreen">
+                        <h2
+                            id="applications-header-alt"
+                            className={`${
+                                this.context.proMode
+                                    ? "bg-darkGreen proHeader"
+                                    : "bg-darkBlue casHeader"
+                            }`}
+                        >
                             Center for Teaching and Learning Catalog
                         </h2>
                     </header>
@@ -211,15 +286,25 @@ class PortfolioSection extends React.Component {
                             <img src={Catalog_App} alt="Catalog course page" />
                         </div>
                         <div className="port-overview-alt">
-                            <h3 className="overview-header bg-darkGreen">Overview</h3>
-                            <p>
+                            <h3
+                                className={`overview-header ${
+                                    this.context.proMode
+                                        ? "bg-darkGreen proHeader"
+                                        : "bg-darkBlue casHeader"
+                                }`}
+                            >
+                                Overview
+                            </h3>
+                            <p className={`${this.context.proMode ? "proText" : "casText"}`}>
                                 As an instructional designer, web developer, and game developer for
                                 the Center for Teaching and Learning Excellence, an ever changing
                                 course catalog is essential to providing information to faculty and
                                 staff about learning and training opportunities.
                             </p>
-                            <h3>Project Tech</h3>
-                            <ul>
+                            <h3 className={`${this.context.proMode ? "proHeader" : "casHeader"}`}>
+                                Project Tech
+                            </h3>
+                            <ul className={`${this.context.proMode ? "proText" : "casText"}`}>
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>JavaScript</li>
@@ -235,17 +320,25 @@ class PortfolioSection extends React.Component {
                             href="http://google.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="try-it bg-lightGreen"
+                            className={`try-it ${
+                                this.context.proMode ? "bg-lightGreen" : "bg-lightBlue"
+                            }`}
                         >
-                            <p className="a-text">Try It Out</p>
+                            <p className={`a-text ${this.context.proMode ? "proText" : "casText"}`}>
+                                Try It Out
+                            </p>
                         </a>
                         <a
                             href="http://google.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="check-it-out bg-lightGreen"
+                            className={`check-it-out ${
+                                this.context.proMode ? "bg-lightGreen" : "bg-lightBlue"
+                            }`}
                         >
-                            <p className="a-text">Check Out the Code</p>
+                            <p className={`a-text ${this.context.proMode ? "proText" : "casText"}`}>
+                                Check Out the Code
+                            </p>
                         </a>
                     </div>
                 </section>

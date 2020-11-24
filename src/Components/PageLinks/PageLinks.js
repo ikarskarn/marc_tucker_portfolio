@@ -23,11 +23,25 @@ class PageLinks extends React.Component {
         return (
             <div className="pageLinks-content">
                 <section class="page-links">
-                    <Link to="/portfolio" class="portfolio-link bg-lightGreen">
-                        <p className="link-text">Portfolio</p>
+                    <Link
+                        to="/portfolio"
+                        className={`portfolio-link ${
+                            this.context.proMode ? "bg-lightGreen" : "bg-lightBlue"
+                        }`}
+                    >
+                        <p className={`link-text ${this.context.proMode ? "proText" : "casText"}`}>
+                            Portfolio
+                        </p>
                     </Link>
-                    <Link to="/about-me" class="aboutMe-link bg-lightGreen">
-                        <p className="link-text">About Me</p>
+                    <Link
+                        to="/about-me"
+                        className={`aboutMe-link ${
+                            this.context.proMode ? "bg-lightGreen" : "bg-lightBlue"
+                        }`}
+                    >
+                        <p className={`link-text ${this.context.proMode ? "proText" : "casText"}`}>
+                            About Me
+                        </p>
                     </Link>
                 </section>
                 <section className="programs">

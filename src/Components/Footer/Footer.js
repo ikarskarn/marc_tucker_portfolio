@@ -6,9 +6,15 @@ class Footer extends React.Component {
     static contextType = Context;
     render() {
         return (
-            <div className="footer-content bg-lightGreen">
+            <div
+                className={`footer-content ${
+                    this.context.proMode ? "bg-lightGreen" : "bg-lightBlue"
+                }`}
+            >
                 <footer>
-                    <p className="contact-label">Contact Info</p>
+                    <p className={`contact-label ${this.context.proMode ? "proText" : "casText"}`}>
+                        Contact Info
+                    </p>
                     <address>
                         <div className="contact">
                             Email: <a href="mailto:marcttucker@gmail.com">marcttucker@gmail.com</a>{" "}

@@ -21,10 +21,6 @@
     border-radius: 50%;
 }
 
-.header-center > h1 {
-    font-family: "Permanent Marker", cursive;
-}
-
 .header-center {
     display: flex;
     justify-content: center;

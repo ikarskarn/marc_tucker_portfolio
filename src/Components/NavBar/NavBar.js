@@ -26,7 +26,11 @@ class NavBar extends React.Component {
     render() {
         return (
             <div className="NavBar-content">
-                <header className="top-header bg-lightGreen">
+                <header
+                    className={`top-header ${
+                        this.context.proMode ? "bg-lightGreen" : "bg-lightBlue"
+                    }`}
+                >
                     <div className="header-left">
                         <Link to="/">
                             <img className="logo" src={Logo} alt="Pixel Grind Games Logo" />
@@ -42,13 +46,27 @@ class NavBar extends React.Component {
                         </Link>
                     </div>
                     <div className="header-center">
-                        <h1>Marc Tucker</h1>
+                        <h1 className={`${this.context.proMode ? "proHeader" : "casHeader"}`}>
+                            Marc Tucker
+                        </h1>
                     </div>
                     <div className="header-right">
-                        <button type="button" className="switch-mode-button bg-darkGreen">
-                            Professional
+                        <button
+                            type="button"
+                            onClick={() => this.context.updateMode()}
+                            className={`switch-mode-button ${
+                                this.context.proMode ? "bg-darkGreen" : "bg-darkBlue"
+                            }`}
+                        >
+                            {this.context.proMode ? "Professional" : "Casual"}
                         </button>
-                        <p className="js-current-mode">*switch</p>
+                        <p
+                            className={`js-current-mode ${
+                                this.context.proMode ? "proText" : "casText"
+                            }`}
+                        >
+                            *switch
+                        </p>
                     </div>
                 </header>
                 <div className={this.state.headerText}>

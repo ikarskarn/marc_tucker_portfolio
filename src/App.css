@@ -2,6 +2,22 @@
     box-sizing: border-box;
 }
 
+.proHeader {
+    font-family: "Castoro", serif;
+}
+
+.proText {
+    font-family: "Roboto", sans-serif;
+}
+
+.casHeader {
+    font-family: "Nerko One", cursive;
+}
+
+.casText {
+    font-family: "Permanent Marker", cursive;
+}
+
 body {
     font-size: 1em;
     height: 100%;

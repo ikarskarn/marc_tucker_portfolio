@@ -16,6 +16,14 @@ import Footer from "./Components/Footer/Footer";
 class App extends React.Component {
     state = {
         error: null,
+        proMode: true,
+        updateMode: () => {
+            let b = this.state.proMode;
+            b = !b;
+            this.setState({
+                proMode: b,
+            });
+        },
     };
 
     render() {
