@@ -23,7 +23,7 @@ h2 {
 }
 
 .profile-photo {
-    width: 50%;
+    width: 200px;
     border-radius: 50%;
     border: 5px solid #132721;
 }
@@ -41,9 +41,9 @@ h2 {
 
 @media screen and (min-width: 480px) {
     .profile-photo {
-        display: inline-flex;
-        margin: 0px;
-        vertical-align: middle;
+        width: 300px;
+        border-radius: 50%;
+        border: 5px solid #132721;
     }
 }
 

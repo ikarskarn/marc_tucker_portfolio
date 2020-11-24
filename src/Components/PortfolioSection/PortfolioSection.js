@@ -10,6 +10,19 @@ import Smize_MainPage from "../../images/smize_mobile_01.jpg";
 import Smize_App from "../../images/smize_mobile_02.jpg";
 import Catalog_Admin from "../../images/catalog_mobile_01.jpg";
 import Catalog_App from "../../images/catalog_mobile_02.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faCss3,
+    faGit,
+    faGithub,
+    faHtml5,
+    faJsSquare,
+    faMarkdown,
+    faNodeJs,
+    faNpm,
+    faReact,
+    faUnity,
+} from "@fortawesome/free-brands-svg-icons";
 
 class PortfolioSection extends React.Component {
     static contextType = Context;
@@ -28,7 +41,7 @@ class PortfolioSection extends React.Component {
                             <img src={Smize_App} alt="Smize Application primary functionality" />
                         </div>
                         <div className="port-overview">
-                            <h3 className="overview-header bg-lightGreen">Smize Overview</h3>
+                            <h3 className="overview-header bg-lightGreen">Overview</h3>
                             <p>
                                 The phrase, Smize, was coined by Tara Banks. Smiling with your eyes
                                 is the best way to get a natural smile for the camera. The Smize App
@@ -42,7 +55,7 @@ class PortfolioSection extends React.Component {
                                 <li>React</li>
                                 <li>CSS</li>
                                 <li>HTML</li>
-                                <li>jQuery</li>
+                                <li>javaScript</li>
                                 <li>Express</li>
                                 <li>Node.js</li>
                                 <li>PostgreSQL</li>
@@ -50,18 +63,28 @@ class PortfolioSection extends React.Component {
                         </div>
                     </div>
                     <div className="port-buttons bg-lightGreen">
-                        <button type="button" className="try-it bg-darkGreen">
-                            Try It Out
-                        </button>
-                        <button type="button" className="check-it-out bg-darkGreen">
-                            Check Out the Code
-                        </button>
+                        <a
+                            href="http://google.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="try-it bg-darkGreen"
+                        >
+                            <p className="a-text">Try It Out</p>
+                        </a>
+                        <a
+                            href="http://google.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="check-it-out bg-darkGreen"
+                        >
+                            <p className="a-text">Check Out the Code</p>
+                        </a>
                     </div>
                 </section>
                 <section className="port-app-alt">
                     <header class="section-header">
                         <h2 id="applications-header-alt" className="bg-darkGreen">
-                            COVID-19 API App
+                            COVID-19 API Application
                         </h2>
                     </header>
                     <div className="port-container">
@@ -76,9 +99,7 @@ class PortfolioSection extends React.Component {
                             />
                         </div>
                         <div className="port-overview-alt">
-                            <h3 className="overview-header bg-darkGreen">
-                                Covid-19 API Application
-                            </h3>
+                            <h3 className="overview-header bg-darkGreen">Overview</h3>
                             <p>
                                 Covid-19 has been exceedingly disruptive to many people's lives over
                                 the past year. This application is intended to provide insight into
@@ -104,16 +125,22 @@ class PortfolioSection extends React.Component {
                         </div>
                     </div>
                     <div class="port-buttons">
-                        <button type="button" id="js-try-button" class="try-it bg-lightGreen">
-                            Try It Out
-                        </button>
-                        <button
-                            type="button"
-                            id="js-check-button"
-                            class="check-it-out bg-lightGreen"
+                        <a
+                            href="http://google.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="try-it bg-lightGreen"
                         >
-                            Check Out the Code
-                        </button>
+                            <p className="a-text">Try It Out</p>
+                        </a>
+                        <a
+                            href="http://google.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="check-it-out bg-lightGreen"
+                        >
+                            <p className="a-text">Check Out the Code</p>
+                        </a>
                     </div>
                 </section>
                 <section className="port-app">
@@ -134,9 +161,7 @@ class PortfolioSection extends React.Component {
                             />
                         </div>
                         <div className="port-overview">
-                            <h3 className="overview-header bg-lightGreen">
-                                3D Components Quiz Application
-                            </h3>
+                            <h3 className="overview-header bg-lightGreen">Overview</h3>
                             <p>
                                 The 3D Components Quiz Application is an example of a minimalistic
                                 interactive quiz application built from the ground up. It is built
@@ -156,12 +181,22 @@ class PortfolioSection extends React.Component {
                         </div>
                     </div>
                     <div className="port-buttons bg-lightGreen">
-                        <button type="button" className="try-it bg-darkGreen">
-                            Try It Out
-                        </button>
-                        <button type="button" className="check-it-out bg-darkGreen">
-                            Check Out the Code
-                        </button>
+                        <a
+                            href="http://google.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="try-it bg-darkGreen"
+                        >
+                            <p className="a-text">Try It Out</p>
+                        </a>
+                        <a
+                            href="http://google.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="check-it-out bg-darkGreen"
+                        >
+                            <p className="a-text">Check Out the Code</p>
+                        </a>
                     </div>
                 </section>
                 <section className="port-app-alt">
@@ -176,7 +211,7 @@ class PortfolioSection extends React.Component {
                             <img src={Catalog_App} alt="Catalog course page" />
                         </div>
                         <div className="port-overview-alt">
-                            <h3 className="overview-header bg-darkGreen">Catalog App Overview</h3>
+                            <h3 className="overview-header bg-darkGreen">Overview</h3>
                             <p>
                                 As an instructional designer, web developer, and game developer for
                                 the Center for Teaching and Learning Excellence, an ever changing
@@ -196,16 +231,22 @@ class PortfolioSection extends React.Component {
                         </div>
                     </div>
                     <div class="port-buttons">
-                        <button type="button" id="js-try-button" class="try-it bg-lightGreen">
-                            Try It Out
-                        </button>
-                        <button
-                            type="button"
-                            id="js-check-button"
-                            class="check-it-out bg-lightGreen"
+                        <a
+                            href="http://google.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="try-it bg-lightGreen"
                         >
-                            Check Out the Code
-                        </button>
+                            <p className="a-text">Try It Out</p>
+                        </a>
+                        <a
+                            href="http://google.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="check-it-out bg-lightGreen"
+                        >
+                            <p className="a-text">Check Out the Code</p>
+                        </a>
                     </div>
                 </section>
             </div>

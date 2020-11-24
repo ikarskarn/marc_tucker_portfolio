@@ -103,22 +103,36 @@ h3 {
 
 .try-it {
     width: 50%;
-    height: 60px;
     margin: 10px auto;
     font-weight: bold;
     border-radius: 10px;
     align-self: center;
     transition: all 0.2s ease-in-out;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
 }
 
 .check-it-out {
     width: 60%;
-    height: 60px;
     margin: 10px auto;
     font-weight: bold;
     border-radius: 10px;
     align-self: center;
     transition: all 0.2s ease-in-out;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.a-text {
+    height: 100%;
+    margin: auto 10px auto 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media screen and (min-width: 480px) {
@@ -145,7 +159,6 @@ h3 {
     .try-it,
     .check-it-out {
         width: 35%;
-        margin: 30px;
     }
 }
 
@@ -161,12 +174,14 @@ h3 {
     }
 
     .port-images,
-    .port-overview {
+    .port-overview,
+    .port-overview-alt {
         width: 50%;
         display: inline-block;
         vertical-align: middle;
         padding: 5%;
         text-align: center;
+        border-bottom: none;
     }
 
     .port-images {
@@ -193,10 +208,11 @@ h3 {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        border-top: 2px solid #062c44;
     }
 
-    .port-buttons > button {
+    .port-buttons > a {
         width: 30%;
-        height: 90px;
+        height: 100px;
     }
 }
