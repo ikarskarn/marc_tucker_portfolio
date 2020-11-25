@@ -17,14 +17,32 @@ class Footer extends React.Component {
                     </p>
                     <address>
                         <div className="contact">
-                            Email: <a href="mailto:marcttucker@gmail.com">marcttucker@gmail.com</a>{" "}
+                            Email:{" "}
+                            <a
+                                href="mailto:marcttucker@gmail.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                marcttucker@gmail.com
+                            </a>{" "}
                         </div>
                         <div className="contact">
-                            GitHub: <a href="https://github.com/ikarskarn">@ikarskarn</a>{" "}
+                            GitHub:{" "}
+                            <a
+                                href="https://github.com/ikarskarn"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                @ikarskarn
+                            </a>{" "}
                         </div>
                         <div className="contact">
                             LinkedIn:{" "}
-                            <a href="https://www.linkedin.com/in/marc-tucker-3190884">
+                            <a
+                                href="https://www.linkedin.com/in/marc-tucker-3190884"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 @marcttucker
                             </a>{" "}
                         </div>

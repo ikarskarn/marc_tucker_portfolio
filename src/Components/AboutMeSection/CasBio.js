@@ -17,13 +17,13 @@ export default function CasBio(props) {
             </p>
             <p>
                 {" "}
-                I am stoked about this new chapter in my life. I am a soon-to-be Graduate of the
+                I am stoked about this new chapter in my life. I am a soon-to-be graduate of the
                 Engineering Flex Full Stack Program at Thinkful and have gained additional expertise
                 in the valuable skills and tools to hit the ground running. My time in the Game
                 Design and Development industry gives me a leg up in incorporating Interactivity and
                 Design principles that make people want to come back and visit the site again.
                 Working with other developers in the game industry has been a great experience that
-                has helped to shape me into a very collaborative and team oriented kind of person
+                has helped to shape me into a very collaborative and team-oriented kind of person
                 that can wear multiple hats on a small team or focus on a specific part of the
                 process on a larger one. My background as an Educator in such a fast-paced technical
                 field makes me a master problem solver and collaborator. I’ve taught a lot of

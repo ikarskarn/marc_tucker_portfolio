@@ -8,7 +8,7 @@ export default function ProBio(props) {
                 creative endeavors, such as Theatre and Music, that bring joy to others.
                 Collaborating with others to create something exciting and entertaining is extremely
                 satisfying. Over the course of my entire life, I have enjoyed finding creative and
-                logical solutions to problems. For the past ten years I have worked in the creative
+                logical solutions to problems. For the past ten years, I have worked in the creative
                 field of Game Development as a C# Engineer, Designer, 3D Modeler, 3D Rigging
                 Engineer, Mobile Programmer, Rendering Specialist, and Educator with some of the
                 best developers and educators around. And finally, In the past couple of years, I
@@ -18,7 +18,7 @@ export default function ProBio(props) {
                 Development Industry.
             </p>
             <p>
-                I am a soon-to-be Graduate of the Engineering Flex Full Stack Program at Thinkful
+                I am a soon-to-be graduate of the Engineering Flex Full Stack Program at Thinkful
                 and have learned valuable tools and resources to help me make the transition to Web
                 Development. My experience in Game Design and Development provides me with a unique
                 perspective on Interactivity and Design principles that encourage engagement and
