@@ -12,11 +12,11 @@ class CovidApp extends React.Component {
                 Covid-19 has been exceedingly disruptive to many people's lives over the past year.
                 This application is intended to provide insight into the upcoming increase or
                 decrease in positive Covid cases. Utilizing previous numbers, this application
-                predicts the potential future numbers and displays the 7 and 14 day outlook. It also
+                predicts the potential future numbers and displays the 7 and 14-day outlook. It also
                 offers a readout of the past 14 days of Covid cases that can be sorted by Total US
                 cases or by State. The Covid-19 API Application gathers data from the Covid-19
-                Tracking Project and was developed using with semantic and a11y accessible HTML,
-                styled with CSS, and interaction coded with JavaScript and jQuery Libraries.
+                Tracking Project and was developed using semantic and a11y accessible HTML, styled
+                with CSS, and interaction coded with JavaScript and jQuery Libraries.
             </p>
         );
         const casOverview = (

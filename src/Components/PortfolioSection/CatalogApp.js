@@ -10,7 +10,7 @@ class CatalogApp extends React.Component {
         const proOverview = (
             <p className={"proText"}>
                 As an instructional designer, web developer, and game developer for the Center for
-                Teaching and Learning Excellence, an ever changing course catalog is essential to
+                Teaching and Learning Excellence, an ever-changing course catalog is essential to
                 providing information to faculty and staff about learning and training
                 opportunities. The CTLE Catalog is a Full Stack application developed using HTML,
                 CSS, JavaScript, React, Nodejs, React, and PostgreSQL.

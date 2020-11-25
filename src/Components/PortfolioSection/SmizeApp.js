@@ -12,7 +12,7 @@ class SmizeApp extends React.Component {
             <p className={"proText"}>
                 The phrase, Smize, was a slang term originally spoken by Tara Banks. The meaning of
                 the term is to "Smile with your eyes". As a model, smiling with your eyes is the
-                best way to achieve a natural looking smile for the camera. The Smize Application is
+                best way to achieve a natural-looking smile for the camera. The Smize Application is
                 designed for photographers as a way to encourage their clients to project that
                 natural smile. Smize displays humorous phrases for photographers to read aloud while
                 taking photographs of clients. The Application was built utilizing HTML, CSS,
